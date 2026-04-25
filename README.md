@@ -34,7 +34,7 @@ A full-stack MERN application (MongoDB, Express.js, React, Node.js) based on a D
 
 2. **Install dependencies**
    ```bash
-   npm run install:all
+   npm run install
    # or separately:
    # cd server && npm install
    # cd ../client && npm install
@@ -92,7 +92,6 @@ A full-stack MERN application (MongoDB, Express.js, React, Node.js) based on a D
 
 - **Frontend**: React, Vite, Tailwind CSS, Radix UI, Axios
 - **Backend**: Node.js, Express.js, MongoDB, Mongoose, JWT, bcryptjs
-- **Development**: TypeScript, ESLint, concurrently
 
 ## Scripts
 
