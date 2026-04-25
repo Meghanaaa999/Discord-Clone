@@ -1,4 +1,4 @@
-# MERN Discord Clone
+# Discord Clone
 
 A full-stack MERN application (MongoDB, Express.js, React, Node.js) based on a Discord clone.
 
