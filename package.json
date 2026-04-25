@@ -1,0 +1,20 @@
+{
+  "name": "mern-discord-clone",
+  "version": "1.0.0",
+  "description": "MERN stack Discord clone",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npx kill-port 3001 && cd server && npm run dev",
+    "dev:client": "npx kill-port 5173 5174 5175 && cd client && npm run dev -- --port 5173",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client"
+  },
+  "devDependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.60.2",
+    "@tailwindcss/oxide-win32-x64-msvc": "^4.2.2",
+    "concurrently": "^8.2.2",
+    "kill-port": "^2.0.1",
+    "lightningcss-win32-x64-msvc": "^1.32.0"
+  }
+}

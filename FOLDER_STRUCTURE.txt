@@ -1,0 +1,93 @@
+FSD - CLEAN MERN STACK STRUCTURE
+=================================
+
+fsd/
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── ui/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── pages/
+│   │   │   ├── auth/
+│   │   │   ├── dashboard/
+│   │   │   └── common/
+│   │   ├── services/
+│   │   ├── styles/
+│   │   ├── utils/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── .env
+│   ├── .env.example
+│   ├── components.json
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server/
+│   ├── config/
+│   │   └── db.js
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── middlewares/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── app.js
+│   ├── utils/
+│   │   └── lib/
+│   ├── .env
+│   ├── .env.example
+│   ├── build.mjs
+│   ├── package.json
+│   └── server.js
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+
+---
+KEY POINTS:
+---
+
+✅ ONLY .js and .jsx files
+❌ NO TypeScript (.ts, .tsx)
+❌ NO YAML workspace files
+✅ Clean, organized folder structure
+✅ MVC pattern in backend
+✅ Component-based frontend
+✅ Proper separation of concerns
+
+---
+FILE EXTENSIONS USED:
+---
+
+Frontend:
+- *.jsx - React components
+- *.js - JavaScript utilities, hooks
+- *.css - Styles
+
+Backend:
+- *.js - All server code
+- *.env - Environment variables
+
+---
+REQUIRED SETUP:
+
+1. Create missing folders if needed:
+   - server/src/models/
+   - client/src/components/ui/ (add components)
+
+2. Update package.json scripts:
+   - Frontend: npm run dev (Vite)
+   - Backend: npm start or npm run dev
+
+3. Configure API connection:
+   - Frontend proxy in vite.config.js → /api → localhost:3000
+   - Backend API routes in server/src/routes/
+
+4. Setup environment variables in .env files
+
+---
+READY FOR DEVELOPMENT! 🚀
