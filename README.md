@@ -99,3 +99,7 @@ A full-stack MERN application (MongoDB, Express.js, React, Node.js) based on a D
 - `npm run dev:server` - Start only the backend server
 - `npm run dev:client` - Start only the frontend client
 - `npm run install` - Install dependencies for both client and server
+
+## 🎥 Demo Links
+- https://drive.google.com/file/d/11inEyjPrPaGSjQPa2MlyZRJrl8W9Mygc/view?usp=drive_link
+- https://drive.google.com/file/d/1RqYOHlSR2gzqF3RjQpNmQ_wyc_RtZLpu/view?usp=drive_link
